@@ -1,5 +1,5 @@
 const country = prompt('Выберите страну доставки');
-let normalizedCountry = country.toLowerCase();
+let normalizedCountry = country && country.toLowerCase();
 let price = 0;
 let deliveryCountry = 0;
 
